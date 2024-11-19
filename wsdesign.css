@@ -16,9 +16,18 @@
     justify-content: center;
 }
 
+#bg {
+    background-image: url(download_files/watatsumiisland.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 table {
     border-collapse: collapse;
     margin: auto;
+    background-color: white;
     
 }
 
@@ -43,7 +52,9 @@ td.selected_end {
     padding-block: 15px;
     padding-inline: 15px;
     width: fit-content;
+    height: fit-content;
     outline: auto;
+    background-color: aliceblue;
     
     
     
@@ -75,7 +86,7 @@ td.selected_end {
 
 #tutorial {
     width: 300px;
-    background-color: antiquewhite;
+    background-color:rgb(250, 216, 215);
     margin-left: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -93,4 +104,31 @@ li {
 
 a {
     font-size: 20px;
+}
+
+#intro {
+    background-color: lightcoral;
+    position: relative;
+    height: 200px;
+}
+
+#intro h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#intro h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
