@@ -1,0 +1,96 @@
+#importbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputfile, #wordfile {
+    padding-left: 10px;
+}
+
+
+
+#main {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+
+td {
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+
+}
+
+td.selected_start {
+    background: limegreen;
+}
+
+td.selected_end {
+    background: grey;
+}
+
+#grid {
+    border-radius: 10px;
+    padding-block: 15px;
+    padding-inline: 15px;
+    width: fit-content;
+    outline: auto;
+    
+    
+    
+}
+
+
+#wordblock {
+    width: 300px;
+    background-color: antiquewhite;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-block: 15px;
+    border-radius: 20px;
+    min-height: 520px;
+    outline: auto;
+    
+}
+
+#wordlist {
+    white-space: pre-line;
+}
+
+#wordsfound {
+    white-space: pre-line;
+    text-decoration: line-through;
+    color: dimgrey;
+}
+
+#tutorial {
+    width: 300px;
+    background-color: antiquewhite;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-block: 15px;
+    border-radius: 20px;
+    min-height: 520px;
+    outline: auto;
+    
+}
+
+li {
+    padding-right: 17px;
+    font-size: 20px;
+}
+
+a {
+    font-size: 20px;
+}
